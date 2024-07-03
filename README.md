@@ -1,5 +1,3 @@
-Sure, here is the `README.md` properly formatted in Markdown:
-
 ```markdown
 # Bellabeat Data Analysis Project
 
