@@ -1,5 +1,4 @@
-```markdown
-# Bellabeat Data Analysis Project
+# Bellabeat Customer Segmentation Project
 
 ## Project Overview
 
@@ -15,37 +14,65 @@ This repository contains an exploratory data analysis of smart device fitness da
 ## Project Structure
 
 ```
-BELLABEAT-DATA-ANALYSIS/
+BELLABEAT-CUSTOMER-SEGMENTATION/
 │
 ├── data/
-│   └── fitbit_dataset.csv
-├── docs/
-│   └── project_brief.pdf
+│   ├── dailyActivity_merged.csv
+│   ├── dailyCalories_merged.csv
+│   ├── dailyIntensities_merged.csv
+│   ├── dailySteps_merged.csv
+│   ├── heartrate_seconds_merged_updated.csv
+│   ├── heartrate_seconds_merged.csv
+│   ├── hourlyCalories_merged.csv
+│   ├── hourlyIntensities_merged.csv
+│   ├── hourlySteps_merged.csv
+│   ├── minuteCaloriesNarrow_merged.csv
+│   ├── minuteCaloriesWide_merged.csv
+│   ├── minuteIntensitiesNarrow_merged.csv
+│   ├── minuteIntensitiesWide_merged.csv
+│   ├── minuteMETsNarrow_merged.csv
+│   ├── minuteSleep_merged.csv
+│   ├── minuteStepsNarrow_merged.csv
+│   ├── minuteStepsWide_merged.csv
+│   ├── sleepDay_merged.csv
+│   └── weightLogInfo_merged.csv
 ├── images/
-│   ├── daily_activity_heatmap.png
-│   └── sleep_patterns_chart.png
+│   └── clustering_plot.png
 ├── notebooks/
-│   ├── data_cleaning.ipynb
-│   └── exploratory_analysis.ipynb
+│   ├── 01_EDA_general.ipynb
+│   ├── 02_EDA_activity.ipynb
+│   ├── 03_EDA_sleep.ipynb
+│   ├── 04_EDA_weight.ipynb
+│   └── 05_clustering.ipynb
 ├── reports/
-│   └── final_presentation.pptx
+│   ├── Bellabeat - Capstone.pptx
+│   ├── pandas_profiling_report.html
+│   └── presentation.html
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
 
-- **data/fitbit_dataset.csv**: The dataset used for analysis.
-- **notebooks/**: Jupyter notebooks for data cleaning and exploratory analysis.
-- **reports/final_presentation.pptx**: Final presentation with insights and recommendations.
+- **data/**: Directory containing the dataset files used for analysis.
+- **images/**: Directory containing images generated from the analysis.
+- **notebooks/**: Jupyter notebooks for data cleaning, exploratory analysis, and clustering.
+- **reports/**: Final presentation with insights and recommendations, along with HTML reports.
 
-## Getting Started
+## Accessing the Data and Analysis
 
-To start working on this project, follow these steps:
+### Online Viewing
+
+To view the detailed analysis online, you can navigate through the Jupyter notebooks directly on GitHub. The notebooks have been run and their outputs saved to provide an accessible overview of the analysis.
+
+### Local Setup
+
+For more technical personnel interested in cloning the repository and running the notebooks locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/BELLABEAT-DATA-ANALYSIS.git
-   cd BELLABEAT-DATA-ANALYSIS
+   git clone https://github.com/yourusername/BELLABEAT-CUSTOMER-SEGMENTATION.git
+   cd BELLABEAT-CUSTOMER-SEGMENTATION
    ```
 
 2. Create and activate a virtual environment:
@@ -66,10 +93,11 @@ To start working on this project, follow these steps:
 
 ## Data Analysis Process
 
-1. Data Cleaning: Review and run `data_cleaning.ipynb` to prepare the dataset for analysis.
-2. Exploratory Analysis: Explore `exploratory_analysis.ipynb` to uncover insights from the data.
-3. Results Interpretation: Examine the charts and findings in the `images/` directory.
-4. Final Recommendations: Review the `reports/final_presentation.pptx` for marketing strategy suggestions.
+1. **Data Cleaning**: Review and run `01_EDA_general.ipynb` to prepare the dataset for analysis.
+2. **Exploratory Analysis**: Explore the specific EDA notebooks for activity, sleep, and weight data to uncover insights from the data.
+3. **Clustering Analysis**: Use `05_clustering.ipynb` to perform customer segmentation based on the data.
+4. **Results Interpretation**: Examine the charts and findings in the `images/` directory.
+5. **Final Recommendations**: Review the `reports/Bellabeat - Capstone.pptx` and `reports/presentation.html` for marketing strategy suggestions.
 
 ## Key Findings
 
@@ -82,6 +110,10 @@ To start working on this project, follow these steps:
 1. Target marketing campaigns during peak activity hours (5 PM - 7 PM).
 2. Develop features that encourage consistent sleep patterns.
 3. Create challenges that motivate users to increase their daily step count.
+
+## Additional Insights
+
+The most detailed insights can be found in the individual EDA notebooks. The presentation summarizing the key findings and recommendations can be viewed as a slideshow in the `reports/presentation.html` file, and the PowerPoint itself is available in the `reports/Bellabeat - Capstone.pptx` file.
 
 ## How to Contribute
 
@@ -98,4 +130,3 @@ This project is licensed under the MIT License.
 ## Author
 
 *Created by Jens Reich*
-```
