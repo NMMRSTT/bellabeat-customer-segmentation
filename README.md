@@ -1,4 +1,4 @@
-# Bellabeat Customer Segmentation Project
+# Bellabeat Customer Segmentation Clustering Project
 
 ## Project Overview
 
