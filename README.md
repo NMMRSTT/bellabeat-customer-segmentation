@@ -94,16 +94,29 @@ For more technical personnel interested in cloning the repository and running th
 ## Data Analysis Process
 
 1. **Data Cleaning**: Review and run `01_EDA_general.ipynb` to prepare the dataset for analysis.
-2. **Exploratory Analysis**: Explore the specific EDA notebooks for activity, sleep, and weight data to uncover insights from the data.
-3. **Clustering Analysis**: Use `05_clustering.ipynb` to perform customer segmentation based on the data.
-4. **Results Interpretation**: Examine the charts and findings in the `images/` directory.
-5. **Final Recommendations**: Review the `reports/Bellabeat - Capstone.pptx` and `reports/presentation.html` for marketing strategy suggestions.
+2. **Exploratory Analysis**: Explore the specific EDA notebooks (`02_EDA_activity.ipynb`, `03_EDA_sleep.ipynb`, and `04_EDA_weight.ipynb`) to uncover insights related to activity, sleep, and weight data.
+3. **Clustering Analysis**: Use `05_clustering.ipynb` to perform customer segmentation based on the analyzed data.
+4. **Final Recommendations**: Review the insights and recommendations presented in `reports/Bellabeat - Capstone.pptx` and `reports/presentation.html`.
 
-## Key Findings
+By following these steps, you can thoroughly analyze the data and derive actionable insights to support Bellabeat's marketing strategy.
 
-- Users are most active between 5 PM and 7 PM on weekdays.
-- There's a strong correlation between daily steps and calories burned.
-- Sleep duration averages 7 hours per night, with high variability on weekends.
+## Key Findings and Actions
+
+### Key Insights
+- **Promote Physical Activity**: Users are most active between 5 PM and 7 PM on weekdays.
+  - **Action**: Send notifications in the early evening to encourage activity.
+
+- **Enhance Engagement**: There's a strong correlation between daily steps and calories burned.
+  - **Action**: Motivate users with streaks and ranking systems to increase daily steps.
+
+- **Improve Sleep Quality**: Sleep duration averages 7 hours per night, with high variability on weekends.
+  - **Action**: Encourage bed use solely for sleep to improve sleep consistency.
+
+- **Personalized Recommendations**: Use clustering to assign users to groups and tailor recommendations based on their activity patterns and preferences.
+
+- **Increase Data Diversity**: Collect more data from female users for better insights and more personalized recommendations.
+
+These insights and actions provide a strategic approach to enhance user engagement and improve health outcomes based on the data analysis.
 
 ## Recommendations
 
