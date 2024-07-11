@@ -4,6 +4,9 @@
 
 This repository contains an exploratory data analysis of smart device fitness data to provide insights for Bellabeat's marketing strategy. Bellabeat is a high-tech manufacturer of health-focused products for women, and this analysis aims to unlock new growth opportunities for the company.
 
+[The final presentation of the project can be found here!](https://docs.google.com/presentation/d/1Ev1PiKYHA8jWa3vSO8z4n-NCK2VdcZz_RcptLBIeKkY/edit?usp=sharing)
+
+
 ## Project Description
 
 ### Objectives
